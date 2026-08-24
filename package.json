@@ -1,0 +1,20 @@
+{
+  "name": "l_21_new",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IlyaLifsh/L_21_NEW#readme",
+  "bugs": {
+    "url": "https://github.com/IlyaLifsh/L_21_NEW/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaLifsh/L_21_NEW.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
