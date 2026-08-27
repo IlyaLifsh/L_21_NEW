@@ -90,6 +90,7 @@ function infoFunction(){
 //ccccccccccccccccccccccccccccccccccccccccccccccccc
 const arr = [item1, item2, new Product("Смартфон iphone 20pro","24 камеры",10000)];
 console.log(arr);
+console.log(arr[2]);
 console.log("--------printArray----------------");
 printArray(arr)
 
