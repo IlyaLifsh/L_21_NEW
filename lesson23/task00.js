@@ -28,7 +28,31 @@
 
 // npm install @google/genai
 //===================================================
+/*
+1.
+Параметры → Система → О системе → Дополнительные параметры системы → Переменные среды
+Добавляйте ключ в раздел Переменные пользователя, а не 
+Системные переменные — права администратора не нужны, и ключ будет доступен 
+только вашей учётной записи.
 
+2.
+Powershell
+
+[Environment]::SetEnvironmentVariable(
+  "GEMINI_API_KEY",
+  "ваш_настоящий_ключ",
+  "User"
+)
+
+$env:GEMINI_API_KEY
+if ($env:GEMINI_API_KEY) { "Ключ найден" } else { "Ключ не найден" }
+
+node -e "console.log(process.env.GEMINI_API_KEY ? 'Ключ найден' : 'Ключ не найден')"
+
+const apiKey = process.env.GEMINI_API_KEY;
+
+`${apiKey}`
+*/
 
 
 /*
